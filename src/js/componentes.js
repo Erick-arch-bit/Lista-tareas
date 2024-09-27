@@ -30,7 +30,7 @@ export const crearTodoHtml = (todo) => {
 //Eventos
 txtInput.addEventListener('keyup', (evento)=>{
     //Keycode 13 es un enter, se valida que no este vacio
-    if(evento.ketCode===13 && txtInput.ariaValueMax.length>0){
+    if(evento.keyCode===13 && txtInput.value.length>0){
         const nuevoTodo = new Todo(txtInput.value);
         todoList.nuevoTodo(nuevoTodo);
 
