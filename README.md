@@ -15,3 +15,6 @@ Para el ambiente de desarrollo
 ```
 npm run build:dev
 ```
+Para vizualizar local
+```
+npm run start
