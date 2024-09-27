@@ -1,5 +1,5 @@
 # Webpack-starter:
-Proyecto inicial para crear aplicaciones web con Webpack
+Proyecto de listas de tareas
 # Notas:
 Recuerde recontruir los modulos de Node
 ```
